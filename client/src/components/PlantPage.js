@@ -13,6 +13,7 @@ function PlantPage() {
       .then((r) => r.json())
       .then((plantsArray) => {
         setPlants(plantsArray);
+        console.log(plants)
       });
   }, []);
 
